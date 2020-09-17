@@ -36,7 +36,7 @@ if (distance1 <=20)    // set the distance as you like in Centimetres (example-2
 {
 servo1.write(90);
 delay(1000);   //set the time of operation for servo in milliseconds (1000ms=1second)
-servo1.write(0);
+servo1.write(1);
 delay(2000);   //Set the interval time after operation of servo
 }
 else
